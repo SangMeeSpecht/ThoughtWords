@@ -1,6 +1,24 @@
 #!/usr/bin/env groovy
 
-node {
-	stage 'Test'
-		sh 'fastlane test'
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                sh 'fastlane test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
