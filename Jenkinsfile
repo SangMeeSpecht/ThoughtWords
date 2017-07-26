@@ -6,13 +6,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'This is another test!!!!!!!!!!'
+                echo 'Building..'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-          }
-      }
+                fastlane ios test
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
 }
