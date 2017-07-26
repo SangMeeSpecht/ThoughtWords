@@ -15,12 +15,12 @@ fastlane_version "2.45.0"
 
 default_platform :ios
 
-
+require_relative 'secrets'
 
 platform :ios do
   before_all do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
-    carthage
+    # carthage
     gym(scheme: "ThoughtWords", workspace: "ThoughtWords.xcworkspace", export_method: "development")
   end
 

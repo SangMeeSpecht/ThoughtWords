@@ -6,18 +6,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo '*****Building*****'
+                sh 'fastlane clean'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo '*****Testing*****'
                 sh 'fastlane test'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo '*****Deploying*****'
             }
         }
     }
