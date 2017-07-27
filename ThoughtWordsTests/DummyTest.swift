@@ -13,7 +13,7 @@ import Nimble
 class DummyTest: QuickSpec {
     override func spec() {
         it("adds two numbers") {
-            expect(1+1).to(equal(11))
+            expect(1+1).to(equal(2))
         }
     }
 }
