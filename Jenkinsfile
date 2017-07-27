@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') {
           environment {
-            API_KEY = credentials('API_KEY')
+            API_KEY = $API_KEY
           }
             steps {
                 echo '*****Deploying*****'
