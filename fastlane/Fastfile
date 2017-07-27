@@ -33,7 +33,7 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan(scheme: "ThoughtWords")
+    scan(scheme: "ThoughtWords", device: "iPhone 7")
   end
 
   desc "Submit a new Beta Build to HockeyApp"
