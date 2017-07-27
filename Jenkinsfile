@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo '*****Building*****'
-                sh 'fastlane clean'
+                sh 'fastlane build'
             }
         }
         stage('Test') {

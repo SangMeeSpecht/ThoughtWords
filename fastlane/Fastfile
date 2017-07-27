@@ -21,6 +21,10 @@ platform :ios do
   before_all do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
     carthage
+  end
+
+  desc "builds project"
+  lane :build do
     gym(scheme: "ThoughtWords", workspace: "ThoughtWords.xcworkspace", export_method: "development")
   end
 
