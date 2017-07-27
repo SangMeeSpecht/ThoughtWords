@@ -15,7 +15,7 @@ fastlane_version "2.45.0"
 
 default_platform :ios
 
-# require_relative 'secrets'
+require_relative 'secrets'
 
 platform :ios do
   before_all do
@@ -53,7 +53,7 @@ platform :ios do
       export_method: "development"
     )
     hockey(
-      api_token: API_KEY,
+      api_token: Secrets::API_KEY,
       public_identifier: Secrets::PUBLIC_ID,
       bundle_version: “1.0”,
       notify: "0"
