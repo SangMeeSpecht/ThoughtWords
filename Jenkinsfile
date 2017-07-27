@@ -17,6 +17,9 @@ pipeline {
             }
         }
         stage('Deploy') {
+          environment {
+            API_KEY = credentials('API_KEY')
+          }
             steps {
                 echo '*****Deploying*****'
                 sh 'fastlane beta'
