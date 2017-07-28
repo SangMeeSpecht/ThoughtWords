@@ -7,7 +7,7 @@ pipeline {
         stage('ENVIRONMENT') {
           steps {
             echo '*****ENVIRONMENT!*****'
-            echo "THIS IS ENV: ${env.DEV_ENV}"
+            echo "THIS IS ENV: ${ENV["DEV_ENV"]}"
           }
         }
         stage('Build') {
