@@ -13,7 +13,6 @@
 # Update this, if you use features of a newer version
 fastlane_version "2.45.0"
 default_platform :ios
-require_relative 'secrets'
 
 platform :ios do
   before_all do
@@ -40,6 +39,7 @@ platform :ios do
   desc "Submit a new Beta Build to HockeyApp"
   desc "This will also make sure the profile is up to date"
   lane :local_beta do
+    require_relative "secrets"
     gym(
       workspace: "ThoughtWords.xcworkspace",
       configuration: "beta",
