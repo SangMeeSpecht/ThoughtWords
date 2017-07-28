@@ -22,11 +22,12 @@ platform :ios do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
   end
 
-  # desc "print developer environment"
-  # lane :print_env do
-  #   puts "******************************************"
-  #   puts "THIS IS THE ENVIRONMENT: #{echo $NODE_ENV}"
-  # end
+  desc "print developer environment"
+  lane :print_env do
+    puts "******************************************"
+    puts "THIS IS THE ENVIRONMENT: #{echo $NODE_ENV}"
+    puts "THIS IS THE API KEY: #{ENV['API_KEY']}"
+  end
 
   desc "builds project"
   lane :build do

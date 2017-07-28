@@ -4,6 +4,12 @@ pipeline {
     agent any
 
     stages {
+        stage('API') {
+          steps {
+            echo '*****SECRETS!*****'
+            echo 'ENV[API_KEY]'
+          }
+        }
         stage('Build') {
             steps {
                 echo '*****Building*****'
