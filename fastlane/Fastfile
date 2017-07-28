@@ -25,6 +25,7 @@ platform :ios do
 
   desc "builds project"
   lane :build do
+    puts "THIS IS THE ENV: #{ENV["DEV_ENV"]}"
     carthage
     gym(scheme: "ThoughtWords", workspace: "ThoughtWords.xcworkspace", export_method: "development")
   end

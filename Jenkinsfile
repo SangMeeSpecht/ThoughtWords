@@ -14,6 +14,9 @@ pipeline {
           }
         }
         stage('Build') {
+            environment {
+              DEV_ENV = 'prod'
+            }
             steps {
                 echo '*****Building*****'
                 sh 'fastlane build'
