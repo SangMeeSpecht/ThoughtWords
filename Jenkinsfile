@@ -4,10 +4,10 @@ pipeline {
     agent any
 
     stages {
-        stage('API') {
+        stage('ENVIRONMENT') {
           steps {
-            echo '*****SECRETS!*****'
-            echo 'ENV[API_KEY]'
+            echo '*****ENVIRONMENT!*****'
+            echo "THIS IS ENV: ${env.DEV_ENV}"
           }
         }
         stage('Build') {
