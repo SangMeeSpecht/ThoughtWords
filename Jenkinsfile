@@ -5,9 +5,12 @@ pipeline {
 
     stages {
         stage('ENVIRONMENT') {
+          environment {
+          DEV_ENV = 'prod'
+        }
           steps {
             echo '*****ENVIRONMENT!*****'
-            echo "THIS IS ENV: ${ENV["DEV_ENV"]}"
+            echo "THIS IS ENV: ${env.DEV_ENV}"
           }
         }
         stage('Build') {
