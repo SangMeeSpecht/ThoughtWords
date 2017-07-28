@@ -54,14 +54,11 @@ platform :ios do
       bundle_version: “1.0”,
       notify: "0"
     )
-    # sh "your_script.sh"
-    # You can also use other beta testing services here (run `fastlane actions`)
   end
 
   desc "Submit a new Beta Build to HockeyApp"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    # match(type: "appstore") # more information: https://codesigning.guide
     gym(
       workspace: "ThoughtWords.xcworkspace",
       configuration: "beta",
@@ -76,35 +73,7 @@ platform :ios do
       bundle_version: “1.0”,
       notify: "0"
     )
-    # sh "your_script.sh"
-    # You can also use other beta testing services here (run `fastlane actions`)
   end
-
-  # desc "Deploy a new version to the App Store"
-  # lane :release do
-  #   # match(type: "appstore")
-  #   # snapshot
-  #   gym(scheme: "ThoughtWords") # Build your app - more options available
-  #   deliver(force: true)
-  #   # frameit
-  # end
-
-  # You can define as many lanes as you want
-
-#   after_all do |lane|
-#     # This block is called, only if the executed lane was successful
-#
-#     # slack(
-#     #   message: "Successfully deployed new App Update."
-#     # )
-#   end
-#
-#   error do |lane, exception|
-#     # slack(
-#     #   message: exception.message,
-#     #   success: false
-#     # )
-#   end
 end
 
 
