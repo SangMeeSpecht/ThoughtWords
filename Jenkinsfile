@@ -2,21 +2,10 @@
 
 pipeline {
     agent any
-
-    stages {
-        stage('ENVIRONMENT') {
-          environment {
-          DEV_ENV = 'prod'
-        }
-          steps {
-            echo '*****ENVIRONMENT!*****'
-            echo "THIS IS ENV: ${env.DEV_ENV}"
-          }
-        }
+    environment {
+      DEV_ENV = 'prod'
+    }
         stage('Build') {
-            environment {
-              DEV_ENV = 'prod'
-            }
             steps {
                 echo '*****Building*****'
                 sh 'fastlane build'
