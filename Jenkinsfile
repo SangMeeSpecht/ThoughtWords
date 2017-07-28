@@ -23,5 +23,5 @@ pipeline {
                 sh 'fastlane beta'
             }
         }
-    }
+    
 }
