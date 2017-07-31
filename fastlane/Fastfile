@@ -20,7 +20,7 @@ platform :ios do
 
   desc "builds project"
   lane :build do
-    carthage
+    cocoapods
     gym(scheme: "ThoughtWords", workspace: "ThoughtWords.xcworkspace", export_method: "development")
   end
 

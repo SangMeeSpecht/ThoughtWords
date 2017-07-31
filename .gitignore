@@ -46,10 +46,7 @@ Manager dependencies.
 directory-into-source-control
 #
 
-# Pods/
-
-# Carthage
-Carthage/
+Pods/
 
 # fastlane
 #
