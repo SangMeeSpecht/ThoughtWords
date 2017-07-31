@@ -15,20 +15,6 @@
 		845FDD651F28F1D800AAA597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD631F28F1D800AAA597 /* LaunchScreen.storyboard */; };
 		845FDD701F28F1D800AAA597 /* ThoughtWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD6F1F28F1D800AAA597 /* ThoughtWordsTests.swift */; };
 		845FDD7B1F28F1D800AAA597 /* ThoughtWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD7A1F28F1D800AAA597 /* ThoughtWordsUITests.swift */; };
-		845FDD8E1F28FA6700AAA597 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD891F28FA6700AAA597 /* SwiftyJSON.framework */; };
-		845FDD8F1F28FA6700AAA597 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD8A1F28FA6700AAA597 /* ReactiveCocoa.framework */; };
-		845FDD901F28FA6700AAA597 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD8B1F28FA6700AAA597 /* ReactiveSwift.framework */; };
-		845FDD911F28FA6700AAA597 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD8C1F28FA6700AAA597 /* Result.framework */; };
-		845FDD921F28FA6700AAA597 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD8D1F28FA6700AAA597 /* Alamofire.framework */; };
-		845FDD941F28FA7E00AAA597 /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD891F28FA6700AAA597 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD951F28FA7E00AAA597 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD8A1F28FA6700AAA597 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD961F28FA7E00AAA597 /* ReactiveSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD8B1F28FA6700AAA597 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD971F28FA7E00AAA597 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD8C1F28FA6700AAA597 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD981F28FA7E00AAA597 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD8D1F28FA6700AAA597 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD9B1F28FA9C00AAA597 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD991F28FA9C00AAA597 /* Quick.framework */; };
-		845FDD9C1F28FA9C00AAA597 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FDD9A1F28FA9C00AAA597 /* Nimble.framework */; };
-		845FDD9E1F28FAAC00AAA597 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD991F28FA9C00AAA597 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		845FDD9F1F28FAAC00AAA597 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845FDD9A1F28FA9C00AAA597 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		845FDDA11F28FAC900AAA597 /* DummyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDDA01F28FAC900AAA597 /* DummyTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,34 +34,6 @@
 			remoteInfo = ThoughtWords;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		845FDD931F28FA7000AAA597 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				845FDD941F28FA7E00AAA597 /* SwiftyJSON.framework in CopyFiles */,
-				845FDD951F28FA7E00AAA597 /* ReactiveCocoa.framework in CopyFiles */,
-				845FDD961F28FA7E00AAA597 /* ReactiveSwift.framework in CopyFiles */,
-				845FDD971F28FA7E00AAA597 /* Result.framework in CopyFiles */,
-				845FDD981F28FA7E00AAA597 /* Alamofire.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		845FDD9D1F28FA9F00AAA597 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				845FDD9E1F28FAAC00AAA597 /* Quick.framework in CopyFiles */,
-				845FDD9F1F28FAAC00AAA597 /* Nimble.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		845FDD541F28F1D700AAA597 /* ThoughtWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,11 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845FDD8E1F28FA6700AAA597 /* SwiftyJSON.framework in Frameworks */,
-				845FDD8F1F28FA6700AAA597 /* ReactiveCocoa.framework in Frameworks */,
-				845FDD901F28FA6700AAA597 /* ReactiveSwift.framework in Frameworks */,
-				845FDD911F28FA6700AAA597 /* Result.framework in Frameworks */,
-				845FDD921F28FA6700AAA597 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845FDD9B1F28FA9C00AAA597 /* Quick.framework in Frameworks */,
-				845FDD9C1F28FA9C00AAA597 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +163,6 @@
 				845FDD501F28F1D700AAA597 /* Sources */,
 				845FDD511F28F1D700AAA597 /* Frameworks */,
 				845FDD521F28F1D700AAA597 /* Resources */,
-				845FDD931F28FA7000AAA597 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -230,7 +180,6 @@
 				845FDD671F28F1D800AAA597 /* Sources */,
 				845FDD681F28F1D800AAA597 /* Frameworks */,
 				845FDD691F28F1D800AAA597 /* Resources */,
-				845FDD9D1F28FA9F00AAA597 /* CopyFiles */,
 			);
 			buildRules = (
 			);
