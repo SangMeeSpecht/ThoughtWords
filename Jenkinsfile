@@ -2,9 +2,7 @@
 
 pipeline {
     agent any
-    environment {
-      DEV_ENV = 'prod'
-    }
+
     stages {
       stage('Build') {
           steps {
@@ -12,12 +10,14 @@ pipeline {
               sh 'fastlane build'
           }
       }
+
       stage('Test') {
           steps {
               echo '*****Testing*****'
               sh 'fastlane test'
           }
       }
+
       stage('Deploy') {
           steps {
               echo '*****Deploying*****'
