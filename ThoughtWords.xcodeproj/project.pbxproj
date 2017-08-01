@@ -9,18 +9,17 @@
 /* Begin PBXBuildFile section */
 		2805E02A43B67531013AEB43 /* Pods_ThoughtWordsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E8981C597029A76D6F2A0 /* Pods_ThoughtWordsUITests.framework */; };
 		5C15DCF557F211D9DD4ECE64 /* Pods_ThoughtWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECA0341A870B2ED5AEF32A7 /* Pods_ThoughtWords.framework */; };
+		8438397C1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
+		8438397D1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
+		8438397E1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
 		845FDD581F28F1D700AAA597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD571F28F1D700AAA597 /* AppDelegate.swift */; };
 		845FDD5A1F28F1D700AAA597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD591F28F1D700AAA597 /* ViewController.swift */; };
 		845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD5B1F28F1D700AAA597 /* Main.storyboard */; };
 		845FDD601F28F1D800AAA597 /* ThoughtWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD5E1F28F1D800AAA597 /* ThoughtWords.xcdatamodeld */; };
 		845FDD621F28F1D800AAA597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD611F28F1D800AAA597 /* Assets.xcassets */; };
 		845FDD651F28F1D800AAA597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD631F28F1D800AAA597 /* LaunchScreen.storyboard */; };
-		845FDD701F28F1D800AAA597 /* ThoughtWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD6F1F28F1D800AAA597 /* ThoughtWordsTests.swift */; };
 		845FDD7B1F28F1D800AAA597 /* ThoughtWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD7A1F28F1D800AAA597 /* ThoughtWordsUITests.swift */; };
 		845FDDA11F28FAC900AAA597 /* DummyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDDA01F28FAC900AAA597 /* DummyTest.swift */; };
-		84F7D0BB1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
-		84F7D0BC1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
-		84F7D0BD1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
 		84F7D0CF1F30F5DA004D9BE4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0C41F30F5DA004D9BE4 /* LICENSE.txt */; };
 		84F7D0D01F30F5DA004D9BE4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0C51F30F5DA004D9BE4 /* OpenSans-Bold.ttf */; };
 		84F7D0D11F30F5DA004D9BE4 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0C61F30F5DA004D9BE4 /* OpenSans-BoldItalic.ttf */; };
@@ -58,6 +57,7 @@
 		08FD147EC2B5E1F594222FA3 /* Pods-ThoughtWordsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0ECA0341A870B2ED5AEF32A7 /* Pods_ThoughtWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThoughtWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B5BF2502EAFAB35F21DA37 /* Pods-ThoughtWordsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		845FDD541F28F1D700AAA597 /* ThoughtWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FDD571F28F1D700AAA597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845FDD591F28F1D700AAA597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,13 +67,11 @@
 		845FDD641F28F1D800AAA597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845FDD661F28F1D800AAA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845FDD6B1F28F1D800AAA597 /* ThoughtWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		845FDD6F1F28F1D800AAA597 /* ThoughtWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtWordsTests.swift; sourceTree = "<group>"; };
 		845FDD711F28F1D800AAA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845FDD761F28F1D800AAA597 /* ThoughtWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FDD7A1F28F1D800AAA597 /* ThoughtWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtWordsUITests.swift; sourceTree = "<group>"; };
 		845FDD7C1F28F1D800AAA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845FDDA01F28FAC900AAA597 /* DummyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyTest.swift; sourceTree = "<group>"; };
-		84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84F7D0C41F30F5DA004D9BE4 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		84F7D0C51F30F5DA004D9BE4 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		84F7D0C61F30F5DA004D9BE4 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -169,7 +167,7 @@
 				845FDD631F28F1D800AAA597 /* LaunchScreen.storyboard */,
 				845FDD661F28F1D800AAA597 /* Info.plist */,
 				845FDD5E1F28F1D800AAA597 /* ThoughtWords.xcdatamodeld */,
-				84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */,
+				8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */,
 			);
 			path = ThoughtWords;
 			sourceTree = "<group>";
@@ -177,7 +175,6 @@
 		845FDD6E1F28F1D800AAA597 /* ThoughtWordsTests */ = {
 			isa = PBXGroup;
 			children = (
-				845FDD6F1F28F1D800AAA597 /* ThoughtWordsTests.swift */,
 				845FDD711F28F1D800AAA597 /* Info.plist */,
 				845FDDA01F28FAC900AAA597 /* DummyTest.swift */,
 			);
@@ -380,7 +377,6 @@
 				84F7D0D31F30F5DA004D9BE4 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				84F7D0D81F30F5DA004D9BE4 /* OpenSans-SemiBold.ttf in Resources */,
 				84F7D0D61F30F5DA004D9BE4 /* OpenSans-LightItalic.ttf in Resources */,
-				84F7D0BB1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
 				84F7D0D41F30F5DA004D9BE4 /* OpenSans-Italic.ttf in Resources */,
 				84F7D0D01F30F5DA004D9BE4 /* OpenSans-Bold.ttf in Resources */,
 				84F7D0D21F30F5DA004D9BE4 /* OpenSans-ExtraBold.ttf in Resources */,
@@ -390,6 +386,7 @@
 				84F7D0CF1F30F5DA004D9BE4 /* LICENSE.txt in Resources */,
 				84F7D0D51F30F5DA004D9BE4 /* OpenSans-Light.ttf in Resources */,
 				84F7D0D71F30F5DA004D9BE4 /* OpenSans-Regular.ttf in Resources */,
+				8438397C1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */,
 				845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F7D0BC1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
+				8438397D1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F7D0BD1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
+				8438397E1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +563,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				845FDDA11F28FAC900AAA597 /* DummyTest.swift in Sources */,
-				845FDD701F28F1D800AAA597 /* ThoughtWordsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

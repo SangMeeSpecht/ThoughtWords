@@ -41,17 +41,13 @@
                <Test
                   Identifier = "ThoughtWordsTests">
                </Test>
+               <Test
+                  Identifier = "ThoughtWordsTests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "ThoughtWordsTests/testPerformanceExample()">
+               </Test>
             </SkippedTests>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "845FDD751F28F1D800AAA597"
-               BuildableName = "ThoughtWordsUITests.xctest"
-               BlueprintName = "ThoughtWordsUITests"
-               ReferencedContainer = "container:ThoughtWords.xcodeproj">
-            </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
@@ -86,6 +82,13 @@
             ReferencedContainer = "container:ThoughtWords.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = ""
+            value = ""
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

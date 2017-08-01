@@ -7,10 +7,12 @@ target 'ThoughtWords' do
   pod 'Alamofire', '4.4.0'
   pod 'ReactiveCocoa', '~> 6.0'
   pod 'SwiftyJSON'
+  pod 'Firebase/Database'
 
   def testing_pods
       pod 'Quick'
       pod 'Nimble'
+      pod 'Firebase/Database'
   end
 
   target 'ThoughtWordsTests' do
