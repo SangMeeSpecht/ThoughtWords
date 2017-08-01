@@ -66,3 +66,4 @@ fastlane/README.md
 ###secrets###
 secrets.rb
 secrets.swift
+GoogleService-Info.plist

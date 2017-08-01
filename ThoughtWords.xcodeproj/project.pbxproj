@@ -18,6 +18,9 @@
 		845FDD701F28F1D800AAA597 /* ThoughtWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD6F1F28F1D800AAA597 /* ThoughtWordsTests.swift */; };
 		845FDD7B1F28F1D800AAA597 /* ThoughtWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD7A1F28F1D800AAA597 /* ThoughtWordsUITests.swift */; };
 		845FDDA11F28FAC900AAA597 /* DummyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDDA01F28FAC900AAA597 /* DummyTest.swift */; };
+		84F7D0BB1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
+		84F7D0BC1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
+		84F7D0BD1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */; };
 		B25B1C80225524DBE8C50262 /* Pods_ThoughtWordsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C097A7E238E6C9BBAB6CEBB0 /* Pods_ThoughtWordsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,7 @@
 		845FDD7A1F28F1D800AAA597 /* ThoughtWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtWordsUITests.swift; sourceTree = "<group>"; };
 		845FDD7C1F28F1D800AAA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845FDDA01F28FAC900AAA597 /* DummyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyTest.swift; sourceTree = "<group>"; };
+		84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4BABD932EFF15132C5BBA5E /* Pods-ThoughtWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWords/Pods-ThoughtWords.debug.xcconfig"; sourceTree = "<group>"; };
 		C097A7E238E6C9BBAB6CEBB0 /* Pods_ThoughtWordsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThoughtWordsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCF49602164AC08BE6AEC2D /* Pods-ThoughtWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWords.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWords/Pods-ThoughtWords.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				845FDD631F28F1D800AAA597 /* LaunchScreen.storyboard */,
 				845FDD661F28F1D800AAA597 /* Info.plist */,
 				845FDD5E1F28F1D800AAA597 /* ThoughtWords.xcdatamodeld */,
+				84F7D0BA1F30F2B6004D9BE4 /* GoogleService-Info.plist */,
 			);
 			path = ThoughtWords;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845FDD651F28F1D800AAA597 /* LaunchScreen.storyboard in Resources */,
+				84F7D0BB1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
 				845FDD621F28F1D800AAA597 /* Assets.xcassets in Resources */,
 				845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F7D0BC1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F7D0BD1F30F2B6004D9BE4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
