@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0830"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "845FDD531F28F1D700AAA597"
+               BuildableName = "ThoughtWords.app"
+               BlueprintName = "ThoughtWords"
+               ReferencedContainer = "container:ThoughtWords.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug-beta"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "845FDD6A1F28F1D800AAA597"
+               BuildableName = "ThoughtWordsTests.xctest"
+               BlueprintName = "ThoughtWordsTests"
+               ReferencedContainer = "container:ThoughtWords.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "ThoughtWordsTests">
+               </Test>
+               <Test
+                  Identifier = "ThoughtWordsTests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "ThoughtWordsTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "845FDD531F28F1D700AAA597"
+            BuildableName = "ThoughtWords.app"
+            BlueprintName = "ThoughtWords"
+            ReferencedContainer = "container:ThoughtWords.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug-beta"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "845FDD531F28F1D700AAA597"
+            BuildableName = "ThoughtWords.app"
+            BlueprintName = "ThoughtWords"
+            ReferencedContainer = "container:ThoughtWords.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release-beta"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "845FDD531F28F1D700AAA597"
+            BuildableName = "ThoughtWords.app"
+            BlueprintName = "ThoughtWords"
+            ReferencedContainer = "container:ThoughtWords.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug-beta">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release-beta"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

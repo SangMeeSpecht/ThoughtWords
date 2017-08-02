@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		2805E02A43B67531013AEB43 /* Pods_ThoughtWordsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E8981C597029A76D6F2A0 /* Pods_ThoughtWordsUITests.framework */; };
 		5C15DCF557F211D9DD4ECE64 /* Pods_ThoughtWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECA0341A870B2ED5AEF32A7 /* Pods_ThoughtWords.framework */; };
-		843839BE1F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839BD1F323FFF00B70EB3 /* GoogleService-Info.plist */; };
-		843839BF1F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839BD1F323FFF00B70EB3 /* GoogleService-Info.plist */; };
-		843839C01F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839BD1F323FFF00B70EB3 /* GoogleService-Info.plist */; };
-		843839C21F32401900B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839C11F32401900B70EB3 /* GoogleService-Info.plist */; };
-		843839C31F32401900B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839C11F32401900B70EB3 /* GoogleService-Info.plist */; };
-		843839C41F32401900B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839C11F32401900B70EB3 /* GoogleService-Info.plist */; };
+		843839D61F32455700B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D51F32455700B70EB3 /* GoogleService-Info.plist */; };
+		843839D71F32455700B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D51F32455700B70EB3 /* GoogleService-Info.plist */; };
+		843839D81F32455700B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D51F32455700B70EB3 /* GoogleService-Info.plist */; };
+		843839DA1F32466200B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D91F32466200B70EB3 /* GoogleService-Info.plist */; };
+		843839DB1F32466200B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D91F32466200B70EB3 /* GoogleService-Info.plist */; };
+		843839DC1F32466200B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839D91F32466200B70EB3 /* GoogleService-Info.plist */; };
 		845FDD581F28F1D700AAA597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD571F28F1D700AAA597 /* AppDelegate.swift */; };
 		845FDD5A1F28F1D700AAA597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD591F28F1D700AAA597 /* ViewController.swift */; };
 		845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD5B1F28F1D700AAA597 /* Main.storyboard */; };
@@ -64,8 +64,8 @@
 		5F3740F436C369BFD818D97D /* Pods-ThoughtWordsUITests.release-beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.release-beta.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.release-beta.xcconfig"; sourceTree = "<group>"; };
 		74B5BF2502EAFAB35F21DA37 /* Pods-ThoughtWordsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		781622663F3E3113C2551D9A /* Pods-ThoughtWordsUITests.debug-beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.debug-beta.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.debug-beta.xcconfig"; sourceTree = "<group>"; };
-		843839BD1F323FFF00B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		843839C11F32401900B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Test/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		843839D51F32455700B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Dev/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		843839D91F32466200B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Test/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		845FDD541F28F1D700AAA597 /* ThoughtWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FDD571F28F1D700AAA597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845FDD591F28F1D700AAA597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		843839BB1F323FD900B70EB3 /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				843839BD1F323FFF00B70EB3 /* GoogleService-Info.plist */,
+				843839D51F32455700B70EB3 /* GoogleService-Info.plist */,
 			);
 			name = Dev;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 		843839BC1F323FE100B70EB3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				843839C11F32401900B70EB3 /* GoogleService-Info.plist */,
+				843839D91F32466200B70EB3 /* GoogleService-Info.plist */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -406,14 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843839BE1F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */,
+				843839D61F32455700B70EB3 /* GoogleService-Info.plist in Resources */,
 				845FDD651F28F1D800AAA597 /* LaunchScreen.storyboard in Resources */,
 				84F7D0D31F30F5DA004D9BE4 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				84F7D0D81F30F5DA004D9BE4 /* OpenSans-SemiBold.ttf in Resources */,
-				843839C21F32401900B70EB3 /* GoogleService-Info.plist in Resources */,
 				84F7D0D61F30F5DA004D9BE4 /* OpenSans-LightItalic.ttf in Resources */,
 				84F7D0D41F30F5DA004D9BE4 /* OpenSans-Italic.ttf in Resources */,
 				84F7D0D01F30F5DA004D9BE4 /* OpenSans-Bold.ttf in Resources */,
+				843839DA1F32466200B70EB3 /* GoogleService-Info.plist in Resources */,
 				84F7D0D21F30F5DA004D9BE4 /* OpenSans-ExtraBold.ttf in Resources */,
 				84F7D0D11F30F5DA004D9BE4 /* OpenSans-BoldItalic.ttf in Resources */,
 				84F7D0D91F30F5DA004D9BE4 /* OpenSans-SemiBoldItalic.ttf in Resources */,
@@ -429,8 +429,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843839C31F32401900B70EB3 /* GoogleService-Info.plist in Resources */,
-				843839BF1F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */,
+				843839D71F32455700B70EB3 /* GoogleService-Info.plist in Resources */,
+				843839DB1F32466200B70EB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,8 +438,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843839C41F32401900B70EB3 /* GoogleService-Info.plist in Resources */,
-				843839C01F323FFF00B70EB3 /* GoogleService-Info.plist in Resources */,
+				843839D81F32455700B70EB3 /* GoogleService-Info.plist in Resources */,
+				843839DC1F32466200B70EB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,7 +693,6 @@
 			baseConfigurationReference = 2CBCC1F0BE9B947E3374AFB8 /* Pods-ThoughtWords.release-beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_IDENTIFIER = "com.thoughtworks.acprogram.ThoughtWords-test";
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -797,7 +796,6 @@
 			baseConfigurationReference = FBD46477B0F727C6F695C16E /* Pods-ThoughtWords.debug-beta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.ThoughtWords;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -944,7 +942,6 @@
 			baseConfigurationReference = B4BABD932EFF15132C5BBA5E /* Pods-ThoughtWords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.ThoughtWords;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -963,7 +960,6 @@
 			baseConfigurationReference = DCCF49602164AC08BE6AEC2D /* Pods-ThoughtWords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BUNDLE_IDENTIFIER = com.thoughtworks.acprogram.ThoughtWords;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
