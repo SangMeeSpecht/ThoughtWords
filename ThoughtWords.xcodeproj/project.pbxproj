@@ -12,6 +12,8 @@
 		8438397C1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
 		8438397D1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
 		8438397E1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */; };
+		843839A71F31320D00B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839A61F31320D00B70EB3 /* GoogleService-Info.plist */; };
+		843839A81F31320D00B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839A61F31320D00B70EB3 /* GoogleService-Info.plist */; };
 		845FDD581F28F1D700AAA597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD571F28F1D700AAA597 /* AppDelegate.swift */; };
 		845FDD5A1F28F1D700AAA597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD591F28F1D700AAA597 /* ViewController.swift */; };
 		845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD5B1F28F1D700AAA597 /* Main.storyboard */; };
@@ -58,6 +60,7 @@
 		0ECA0341A870B2ED5AEF32A7 /* Pods_ThoughtWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThoughtWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B5BF2502EAFAB35F21DA37 /* Pods-ThoughtWordsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWordsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWordsUITests/Pods-ThoughtWordsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8438397B1F311C9500B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		843839A61F31320D00B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		845FDD541F28F1D700AAA597 /* ThoughtWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FDD571F28F1D700AAA597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845FDD591F28F1D700AAA597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 		845FDD561F28F1D700AAA597 /* ThoughtWords */ = {
 			isa = PBXGroup;
 			children = (
+				843839A61F31320D00B70EB3 /* GoogleService-Info.plist */,
 				84F7D0C21F30F521004D9BE4 /* Resources */,
 				84F7D0C11F30F517004D9BE4 /* Services */,
 				84F7D0C01F30F50C004D9BE4 /* ViewModels */,
@@ -373,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843839A71F31320D00B70EB3 /* GoogleService-Info.plist in Resources */,
 				845FDD651F28F1D800AAA597 /* LaunchScreen.storyboard in Resources */,
 				84F7D0D31F30F5DA004D9BE4 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				84F7D0D81F30F5DA004D9BE4 /* OpenSans-SemiBold.ttf in Resources */,
@@ -395,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843839A81F31320D00B70EB3 /* GoogleService-Info.plist in Resources */,
 				8438397D1F311C9500B70EB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,6 +662,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				api_key = key;
+				"api_key[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -699,6 +707,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				api_key = key;
 			};
 			name = Release;
 		};
