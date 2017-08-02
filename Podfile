@@ -8,11 +8,13 @@ target 'ThoughtWords' do
   pod 'ReactiveCocoa', '~> 6.0'
   pod 'SwiftyJSON'
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   def testing_pods
       pod 'Quick'
       pod 'Nimble'
       pod 'Firebase/Core'
+      pod 'Firebase/Database'
   end
 
   target 'ThoughtWordsTests' do

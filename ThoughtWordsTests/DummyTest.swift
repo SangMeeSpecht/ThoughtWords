@@ -24,7 +24,7 @@ class DummyTest: QuickSpec {
                 for child in snapshot.children {
                     let snap = child as! DataSnapshot
                     let snapshotValue = snap.value as! [String: AnyObject]
-                    name = snapshotValue["name"] as! String
+                    name = snapshotValue["word"] as! String
                 }
             })
             expect(name).toEventually(equal("fail"))
