@@ -31,12 +31,18 @@ class ViewController: UIViewController {
             for child in snapshot.children {
                 let snap = child as! DataSnapshot
                 let snapshotValue = snap.value as! [String: AnyObject]
-                let name = snapshotValue["name"] as! String
+                let name = snapshotValue["word"] as! String
                 
                 self.testLabel.reactive.text <~ MutableProperty(name)
                 print(snapshot.value)
             }
         })
+//        let word = Word(word: "another word", definition: "another word description")
+//        // 3
+//        let dictionaryRef = ref.child("another word")
+//        
+//        // 4
+//        dictionaryRef.setValue(word.toAnyObject())
     }
 }
 

@@ -21,19 +21,19 @@ platform :ios do
   desc "builds project"
   lane :build do
     cocoapods
-    gym(scheme: "ThoughtWords", workspace: "ThoughtWords.xcworkspace", export_method: "development")
+    gym(scheme: "ThoughtWords-TEST", workspace: "ThoughtWords.xcworkspace", export_method: "development")
   end
 
   desc "Clean builds and simulators"
   lane :clean do
     reset_simulators
-    xcclean(scheme: "ThoughtWords")
+    xcclean(scheme: "ThoughtWords-TEST")
     clean_build_artifacts
   end
 
   desc "Runs all the tests"
   lane :test do
-    scan(scheme: "ThoughtWords", device: "iPhone 7")
+    scan(scheme: "ThoughtWords-TEST", device: "iPhone 7")
   end
 
   desc "Submit a new Beta Build to HockeyApp"
@@ -43,7 +43,7 @@ platform :ios do
     gym(
       workspace: "ThoughtWords.xcworkspace",
       configuration: "beta",
-      scheme: "ThoughtWords",
+      scheme: "ThoughtWords-TEST",
       silent: true,
       clean: true,
       export_method: "development"
@@ -62,7 +62,7 @@ platform :ios do
     gym(
       workspace: "ThoughtWords.xcworkspace",
       configuration: "beta",
-      scheme: "ThoughtWords",
+      scheme: "ThoughtWords-TEST",
       silent: true,
       clean: true,
       export_method: "development"
