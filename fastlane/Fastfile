@@ -43,7 +43,7 @@ platform :ios do
     gym(
       workspace: "ThoughtWords.xcworkspace",
       configuration: "beta",
-      scheme: "ThoughtWords",
+      scheme: "ThoughtWords-beta",
       silent: true,
       clean: true,
       export_method: "development"
