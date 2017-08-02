@@ -16,7 +16,6 @@
 		843839E41F32712300B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839E21F32712300B70EB3 /* GoogleService-Info.plist */; };
 		843839E51F32712300B70EB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843839E21F32712300B70EB3 /* GoogleService-Info.plist */; };
 		845FDD581F28F1D700AAA597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD571F28F1D700AAA597 /* AppDelegate.swift */; };
-		845FDD5A1F28F1D700AAA597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD591F28F1D700AAA597 /* ViewController.swift */; };
 		845FDD5D1F28F1D700AAA597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD5B1F28F1D700AAA597 /* Main.storyboard */; };
 		845FDD601F28F1D800AAA597 /* ThoughtWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845FDD5E1F28F1D800AAA597 /* ThoughtWords.xcdatamodeld */; };
 		845FDD621F28F1D800AAA597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FDD611F28F1D800AAA597 /* Assets.xcassets */; };
@@ -68,7 +67,6 @@
 		843839E21F32712300B70EB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		845FDD541F28F1D700AAA597 /* ThoughtWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845FDD571F28F1D700AAA597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845FDD591F28F1D700AAA597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845FDD5C1F28F1D700AAA597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845FDD5F1F28F1D800AAA597 /* ThoughtWords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThoughtWords.xcdatamodel; sourceTree = "<group>"; };
 		845FDD611F28F1D800AAA597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				84F7D0BF1F30F500004D9BE4 /* Views */,
 				84F7D0BE1F30F4C7004D9BE4 /* Models */,
 				845FDD571F28F1D700AAA597 /* AppDelegate.swift */,
-				845FDD591F28F1D700AAA597 /* ViewController.swift */,
 				845FDD5B1F28F1D700AAA597 /* Main.storyboard */,
 				845FDD611F28F1D800AAA597 /* Assets.xcassets */,
 				845FDD631F28F1D800AAA597 /* LaunchScreen.storyboard */,
@@ -596,7 +593,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845FDD5A1F28F1D700AAA597 /* ViewController.swift in Sources */,
 				845FDD601F28F1D800AAA597 /* ThoughtWords.xcdatamodeld in Sources */,
 				845FDD581F28F1D700AAA597 /* AppDelegate.swift in Sources */,
 			);
@@ -703,8 +699,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -722,8 +717,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWordsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -806,8 +800,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -825,8 +818,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWordsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -952,8 +944,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -970,8 +961,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWords/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -989,8 +979,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWordsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1009,8 +998,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = XJMMPU957Q;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)"
 				);
 				INFOPLIST_FILE = ThoughtWordsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
